@@ -1,0 +1,50 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "extends": ["@debacode-public/biome-configs/base"],
+  "files": {
+    "includes": ["lib/**"]
+  },
+  "overrides": [
+    {
+      "includes": ["lib/**"],
+      "linter": {
+        "rules": {
+          "style": {
+            "noMagicNumbers": "off", // Not useful
+            "useComponentExportOnlyModules": "off" // Providers need this
+          },
+          "complexity": {
+            "noExcessiveLinesPerFunction": "off" // React components are functions ;)
+          }
+        }
+      }
+    },
+    {
+      // inherited from biome-configs/nextjs
+      "includes": ["lib/**"],
+      "linter": {
+        "rules": {
+          "style": {
+            "useFilenamingConvention": "off" // Technical debt
+          },
+          "performance": {
+            "noBarrelFile": "off"
+          },
+          "suspicious": {
+            "noExplicitAny": "off" // technical debt
+          }
+        }
+      }
+    },
+    {
+      "includes": ["vite.config.ts"],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "noNodejsModules": "off"
+          }
+        }
+      }
+    }
+  ]
+}
