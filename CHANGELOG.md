@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [4.0.2](https://gitlab.debacode.de/tools/react-simple-maps/compare/v4.0.1..v4.0.2) - 2026-03-16
+
+### 🔧 Chores
+
+- **(deps)** update dependency @vitejs/plugin-react-swc to v4.3.0 - ([8a79f8e](https://gitlab.debacode.de/tools/react-simple-maps/commit/8a79f8e38ae39be6e709a5306a2643479b2a6702)) - @renovate
+- **(deps)** update dependency tools/shared-pipelines to v5 - ([227ed57](https://gitlab.debacode.de/tools/react-simple-maps/commit/227ed57b03e2952dcabbb02fc3e815558843b7b6)) - @renovate
+- **(deps)** update dependency debacode-public/cspell-dictionaries to v1.22.0 - ([bfb81f2](https://gitlab.debacode.de/tools/react-simple-maps/commit/bfb81f243940053371c43e4a54e5d19582ddf581)) - @renovate
+- **(deps)** lock file maintenance - ([9b05d6d](https://gitlab.debacode.de/tools/react-simple-maps/commit/9b05d6dffd59e74a07d6d704d6653d7d671dcd34)) - @renovate
+- **(deps)** update dependency vite to v8 - ([64cd7fc](https://gitlab.debacode.de/tools/react-simple-maps/commit/64cd7fcd84b9afc5589719f1b1ef8acdeca7e37e)) - @renovate
+
+#### New Contributors ❤️
+
+
+* @renovate made their first contribution 
+* @Release Magician 🪄 made their first contribution 
+
+#### Statistics
+- 5 commit(s) contributed to the release.
+- 0 day(s) passed between the first and last commit.
+- 5 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 4 day(s) passed between releases.
+---
 ## [4.0.1] - 2026-03-12
 
 #### New Contributors ❤️
