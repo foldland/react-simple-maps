@@ -1,6 +1,6 @@
 {
   "name": "@debacode-public/react-simple-maps",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "An svg map chart component built with and for React",
   "type": "module",
   "files": [
