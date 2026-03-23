@@ -41,4 +41,4 @@ const useZoomPanContext = () => {
   return context
 }
 
-export { ZoomPanContext, ZoomPanProvider, useZoomPanContext }
+export { useZoomPanContext, ZoomPanContext, ZoomPanProvider }

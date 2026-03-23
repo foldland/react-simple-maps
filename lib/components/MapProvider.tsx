@@ -49,4 +49,4 @@ const useMapContext = () => {
   return context
 }
 
-export { MapProvider, MapContext, useMapContext }
+export { MapContext, MapProvider, useMapContext }
