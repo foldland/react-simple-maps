@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [4.0.3](https://gitlab.debacode.de/tools/react-simple-maps/compare/v4.0.2..v4.0.3) - 2026-03-23
+
+### 🔧 Chores
+
+- **(deps)** update dependency debacode-public/cspell-dictionaries to v1.23.0 - ([ec34298](https://gitlab.debacode.de/tools/react-simple-maps/commit/ec342988ff92f30b463843e4aa3921e00b1aa76a)) - @renovate
+- **(deps)** update dependency debacode/renovate-configs to v3.9.0 - ([9f81717](https://gitlab.debacode.de/tools/react-simple-maps/commit/9f81717f39873b933dbfa0c443024bd712342387)) - @renovate
+- **(deps)** update dependency vite to v8.0.1 - ([ff8b475](https://gitlab.debacode.de/tools/react-simple-maps/commit/ff8b47525ab4da9629c0dab85d2d7eddc4076ace)) - @renovate
+- **(deps)** update dependency @biomejs/biome to v2.4.8 - ([2619506](https://gitlab.debacode.de/tools/react-simple-maps/commit/26195060ba474b7a4fa13a4cc6239f833f2d846e)) - @renovate
+- **(deps)** lock file maintenance - ([18eb6dc](https://gitlab.debacode.de/tools/react-simple-maps/commit/18eb6dcb6644a4db6830d0bf88e2800927d6d1a4)) - @renovate
+
+
+
+
+#### Statistics
+- 5 commit(s) contributed to the release.
+- 0 day(s) passed between the first and last commit.
+- 5 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 7 day(s) passed between releases.
+---
 ## [4.0.2](https://gitlab.debacode.de/tools/react-simple-maps/compare/v4.0.1..v4.0.2) - 2026-03-16
 
 ### 🔧 Chores
@@ -16,8 +36,8 @@ All notable changes to this project will be documented in this file. See [conven
 #### New Contributors ❤️
 
 
-* @renovate made their first contribution 
 * @Release Magician 🪄 made their first contribution 
+* @renovate made their first contribution 
 
 #### Statistics
 - 5 commit(s) contributed to the release.
