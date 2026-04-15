@@ -56,8 +56,8 @@
     "@types/topojson-client": "3.1.5",
     "@types/topojson-specification": "1.0.5",
     "@vitejs/plugin-react-swc": "4.3.0",
-    "react": "19.2.4",
-    "react-dom": "19.2.4",
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
     "typescript": "6.0.2",
     "vite": "8.0.5",
     "vite-plugin-dts": "4.5.4"
