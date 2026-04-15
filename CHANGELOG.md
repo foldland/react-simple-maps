@@ -3,7 +3,35 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
-## [4.0.3](https://gitlab.debacode.de/tools/react-simple-maps/compare/v4.0.2..v4.0.3) - 2026-03-23
+## [4.0.4](https://gitlab.debacode.de/tools/react-simple-maps/compare/v4.0.3..v4.0.4) - 2026-04-15
+
+### 🔧 Chores
+
+- **(deps)** update dependency @biomejs/biome to v2.4.9 - ([5edc895](https://gitlab.debacode.de/tools/react-simple-maps/commit/5edc895dc0157d19eadca8cf629458fed00d5f1a)) - @renovate
+- **(deps)** update dependency vite to v8.0.3 - ([29b5567](https://gitlab.debacode.de/tools/react-simple-maps/commit/29b5567169d5605da5f5077d15caff5779c4b71c)) - @renovate
+- **(deps)** update dependency debacode-public/cspell-dictionaries to v1.24.0 - ([9c60ce0](https://gitlab.debacode.de/tools/react-simple-maps/commit/9c60ce0faa8b7630dc173936eebe4ba95e169ba7)) - @renovate
+- **(deps)** update dependency pnpm to v10.33.0 - ([a18924c](https://gitlab.debacode.de/tools/react-simple-maps/commit/a18924c4e4f8737b422941ed175ebc5d87708a44)) - @renovate
+- **(deps)** lock file maintenance - ([8f4fd34](https://gitlab.debacode.de/tools/react-simple-maps/commit/8f4fd345f41df29dacab0658277e5d76f88d9621)) - @renovate
+- **(deps)** update dependency typescript to v6 - ([d1ff4fa](https://gitlab.debacode.de/tools/react-simple-maps/commit/d1ff4fa4493f7d700a3f86541e106732da923954)) - @renovate
+- **(deps)** lock file maintenance - ([e9b854b](https://gitlab.debacode.de/tools/react-simple-maps/commit/e9b854b4162a9c05319ec3e733cdf6890348d3b5)) - @renovate
+- **(deps)** update dependency vite to v8.0.5 [security] - ([833fad7](https://gitlab.debacode.de/tools/react-simple-maps/commit/833fad7f909ec553d947011e26470efa81b08e4d)) - @renovate
+- **(deps)** update biome packages - ([9ea8256](https://gitlab.debacode.de/tools/react-simple-maps/commit/9ea82561841b702a5c8d3d81e9e9ef55e9336568)) - @renovate
+- **(deps)** update dependency @types/node to v24.12.2 - ([75d4126](https://gitlab.debacode.de/tools/react-simple-maps/commit/75d412615f5488f377fda61cc98b2b6b80351c4a)) - @renovate
+- **(deps)** update react monorepo to v19.2.5 - ([32d67da](https://gitlab.debacode.de/tools/react-simple-maps/commit/32d67da3d84d7be799eb189c7536d2950e15519d)) - @renovate
+- **(deps)** update dependency tools/shared-pipelines to v6 - ([c4076ec](https://gitlab.debacode.de/tools/react-simple-maps/commit/c4076ec99f3ce9e1b7e840d1101b0e92a892f53d)) - @renovate
+- **(deps)** lock file maintenance - ([5637a60](https://gitlab.debacode.de/tools/react-simple-maps/commit/5637a60c3f9ee4d756722eca167cfd1cb61195df)) - @renovate
+
+
+
+
+#### Statistics
+- 13 commit(s) contributed to the release.
+- 16 day(s) passed between the first and last commit.
+- 13 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 22 day(s) passed between releases.
+---
+## [4.0.3](https://gitlab.debacode.de/tools/react-simple-maps/compare/v4.0.2..v4.0.3) - 2026-03-24
 
 ### 🔧 Chores
 
@@ -21,7 +49,7 @@ All notable changes to this project will be documented in this file. See [conven
 - 0 day(s) passed between the first and last commit.
 - 5 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
-- 7 day(s) passed between releases.
+- 8 day(s) passed between releases.
 ---
 ## [4.0.2](https://gitlab.debacode.de/tools/react-simple-maps/compare/v4.0.1..v4.0.2) - 2026-03-16
 
