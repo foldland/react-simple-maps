@@ -1,6 +1,6 @@
 #minimumReleaseAge: 4320 # 3 days - same as renovate
 minimumReleaseAgeExclude:
-  - "@debacode-public/*"
+    - "@debacode-public/*"
 
 # Dependency resolution
 savePrefix: "^"
@@ -20,3 +20,6 @@ blockExoticSubdeps: true
 hoist: false
 hoistWorkspacePackages: false
 verifyDepsBeforeRun: "install"
+
+allowBuilds:
+    "@swc/core": false
