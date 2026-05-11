@@ -1,6 +1,11 @@
-#minimumReleaseAge: 4320 # 3 days - same as renovate
+# Dependency age
+minimumReleaseAge: 4320 # 3 days - same as renovate
 minimumReleaseAgeExclude:
-    - "@debacode-public/*"
+    - "@foldland/*"
+
+registries:
+    default: https://registry.npmjs.org/
+    "@foldland": https://npm.registry.foldland.io
 
 # Dependency resolution
 savePrefix: "^"

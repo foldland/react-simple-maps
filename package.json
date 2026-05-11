@@ -1,5 +1,5 @@
 {
-  "name": "@debacode-public/react-simple-maps",
+  "name": "@foldland/react-simple-maps",
   "version": "4.0.4",
   "description": "An svg map chart component built with and for React",
   "type": "module",
@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.14",
-    "@debacode-public/biome-configs": "1.1.4",
+    "@foldland/biome-configs": "1.1.5",
     "@types/d3-color": "3.1.3",
     "@types/d3-geo": "3.1.0",
     "@types/d3-interpolate": "3.0.4",
@@ -65,7 +65,7 @@
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "^24.14.0",
+      "version": "^24.0.0",
       "onFail": "download"
     },
     "packageManager": {
