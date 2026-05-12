@@ -8,10 +8,10 @@
   ],
   "main": "./dist/react-simple-maps.umd.cjs",
   "module": "./dist/react-simple-maps.js",
-  "types": "./dist/main.d.ts",
+  "types": "./dist/lib/main.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/main.d.ts",
+      "types": "./dist/lib/main.d.ts",
       "import": "./dist/react-simple-maps.js",
       "require": "./dist/react-simple-maps.umd.cjs"
     }
