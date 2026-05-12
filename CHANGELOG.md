@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [4.0.6](https://gitlab.fold.land/tools/react-simple-maps/compare/v4.0.5..v4.0.6) - 2026-05-12
+
+### 🐛 Bug Fixes & Optimizations
+
+- types export - ([f630baa](https://gitlab.fold.land/tools/react-simple-maps/commit/f630baa8cf41398cc321d65c84794e02983dcd3e)) - @nikolas.rimikis
+
+### 🔧 Chores
+
+- **(tools)** migrate to foldland tooling - ([598dda7](https://gitlab.fold.land/tools/react-simple-maps/commit/598dda77e2df5462a187ab076bf034281b2c86f8)) - @nikolas.rimikis
+
+
+
+
+#### Statistics
+- 2 commit(s) contributed to the release.
+- 0 day(s) passed between the first and last commit.
+- 2 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 1 day(s) passed between releases.
+---
 ## [4.0.5](https://gitlab.fold.land/tools/react-simple-maps/compare/v4.0.4..v4.0.5) - 2026-05-11
 
 ### 🔧 Chores
