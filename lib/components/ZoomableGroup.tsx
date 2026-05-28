@@ -1,3 +1,5 @@
+'use client'
+
 import type { D3ZoomEvent } from 'd3-zoom'
 import type { Point } from '../types.ts'
 import { useMapContext } from './MapProvider.tsx'

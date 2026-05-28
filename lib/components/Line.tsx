@@ -1,3 +1,5 @@
+'use client'
+
 import type { LineString } from 'geojson'
 import type { Point } from '../types.ts'
 import { useMapContext } from './MapProvider.tsx'

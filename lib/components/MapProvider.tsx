@@ -3,28 +3,33 @@
 import type { GeoPath, GeoProjection } from 'd3-geo'
 import { geoPath } from 'd3-geo'
 import { createContext, useContext, useMemo } from 'react'
-import type { ProjectionFunction } from '../types.ts'
+import type { Geography, ProjectionFunction } from '../types.ts'
 
 interface MapContextType {
   width: number
   height: number
   path: GeoPath
   projection: GeoProjection
+  geography: Geography
 }
 
 const MapContext = createContext<MapContextType | undefined>(undefined)
+
+interface MapProviderProps {
+  width: number
+  height: number
+  projection: ProjectionFunction
+  geography: Geography
+  children: React.ReactNode
+}
 
 const MapProvider = ({
   width,
   height,
   projection,
+  geography,
   children,
-}: {
-  width: number
-  height: number
-  projection: ProjectionFunction
-  children: React.ReactNode
-}) => {
+}: MapProviderProps) => {
   const value = useMemo(() => {
     const proj = projection(width, height)
 
@@ -32,9 +37,10 @@ const MapProvider = ({
       width: width,
       height: height,
       projection: proj,
+      geography: geography,
       path: geoPath().projection(proj),
     }
-  }, [width, height, projection])
+  }, [width, height, projection, geography])
 
   return <MapContext.Provider value={value}>{children}</MapContext.Provider>
 }
