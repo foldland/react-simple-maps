@@ -3,23 +3,53 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [5.0.0](https://gitlab.fold.land/tools/react-simple-maps/compare/v4.0.6..v5.0.0) - 2026-05-28
+
+### ⚠️ Breaking Changes
+
+-  [**breaking**]use client - ([234c13c](https://gitlab.fold.land/tools/react-simple-maps/commit/234c13cfee62e452b461f070a7419b6af1a6baab)) - @nikolas.rimikis
+
+### 🐛 Bug Fixes & Optimizations
+
+- bundling - ([c13133a](https://gitlab.fold.land/tools/react-simple-maps/commit/c13133a03ddacdcd8a2119d2fe34f5ed2ad8a4e6)) - @nikolas.rimikis
+
+### 🔧 Chores
+
+- **(deps)** update dependency pnpm to v11.1.2 - ([2854735](https://gitlab.fold.land/tools/react-simple-maps/commit/2854735ded59d12ee9ab59836c10485af6197298)) - @renovate
+- **(deps)** update dependency vite to v8.0.13 - ([f653198](https://gitlab.fold.land/tools/react-simple-maps/commit/f653198ca146302b41f1b3f68720d025c10290c6)) - @renovate
+- **(deps)** update dependency @biomejs/biome to v2.4.15 - ([14a8d29](https://gitlab.fold.land/tools/react-simple-maps/commit/14a8d29c71fed8df5b1042e3e91f9cd2bfc2daa0)) - @renovate
+- **(deps)** update dependency @vitejs/plugin-react-swc to v4.3.1 - ([6d98997](https://gitlab.fold.land/tools/react-simple-maps/commit/6d989970ee902a512a31899369ca4050c4afd8c5)) - @renovate
+- **(deps)** update dependency @types/node to v24.12.4 - ([9b11b2e](https://gitlab.fold.land/tools/react-simple-maps/commit/9b11b2e45d3b73d514160674c4d0e95f93f108f5)) - @renovate
+- **(deps)** update dependency @types/react to v19.2.15 - ([440da9e](https://gitlab.fold.land/tools/react-simple-maps/commit/440da9e9fb522bccbce627eb0307eeafa3a4a831)) - @renovate
+- **(deps)** update dependency vite-plugin-dts to v5.0.1 - ([04448d7](https://gitlab.fold.land/tools/react-simple-maps/commit/04448d73403f59d9c6d29115200436bcde261097)) - @renovate
+- **(deps)** update node.js to e36c918 - ([ab013bc](https://gitlab.fold.land/tools/react-simple-maps/commit/ab013bcf2cb0de2b99b87b84143b5a6fce1b1b6f)) - @renovate
+- **(deps)** update dependency pnpm to v11.2.2 - ([c026600](https://gitlab.fold.land/tools/react-simple-maps/commit/c02660031e5cc01cb7a4946b2c1d0c1f5c6f716e)) - @renovate
+- **(deps)** lock file maintenance - ([c8d2b7b](https://gitlab.fold.land/tools/react-simple-maps/commit/c8d2b7b751dfbaa0dc0147da0d5a59d95f0e0f83)) - @renovate
+- **(deps)** update dependency vite to v8.0.14 - ([c0c2fd2](https://gitlab.fold.land/tools/react-simple-maps/commit/c0c2fd2439be13b1df811f79d759962dc6481b54)) - @renovate
+
+
+
+
+#### Statistics
+- 13 commit(s) contributed to the release.
+- 10 day(s) passed between the first and last commit.
+- 13 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 16 day(s) passed between releases.
+---
 ## [4.0.6](https://gitlab.fold.land/tools/react-simple-maps/compare/v4.0.5..v4.0.6) - 2026-05-12
 
 ### 🐛 Bug Fixes & Optimizations
 
 - types export - ([f630baa](https://gitlab.fold.land/tools/react-simple-maps/commit/f630baa8cf41398cc321d65c84794e02983dcd3e)) - @nikolas.rimikis
 
-### 🔧 Chores
-
-- **(tools)** migrate to foldland tooling - ([598dda7](https://gitlab.fold.land/tools/react-simple-maps/commit/598dda77e2df5462a187ab076bf034281b2c86f8)) - @nikolas.rimikis
-
 
 
 
 #### Statistics
-- 2 commit(s) contributed to the release.
+- 1 commit(s) contributed to the release.
 - 0 day(s) passed between the first and last commit.
-- 2 commit(s) parsed as conventional.
+- 1 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
 - 1 day(s) passed between releases.
 ---

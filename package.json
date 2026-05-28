@@ -1,6 +1,6 @@
 {
   "name": "@foldland/react-simple-maps",
-  "version": "4.0.6",
+  "version": "5.0.0",
   "description": "An svg map chart component built with and for React",
   "type": "module",
   "sideEffects": false,
