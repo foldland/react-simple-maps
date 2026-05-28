@@ -3,17 +3,18 @@
   "version": "4.0.6",
   "description": "An svg map chart component built with and for React",
   "type": "module",
+  "sideEffects": false,
   "files": [
     "dist"
   ],
-  "main": "./dist/react-simple-maps.umd.cjs",
-  "module": "./dist/react-simple-maps.js",
+  "main": "./dist/main.cjs.js",
+  "module": "./dist/main.esm.js",
   "types": "./dist/lib/main.d.ts",
   "exports": {
     ".": {
       "types": "./dist/lib/main.d.ts",
-      "import": "./dist/react-simple-maps.js",
-      "require": "./dist/react-simple-maps.umd.cjs"
+      "import": "./dist/main.esm.js",
+      "require": "./dist/main.cjs.js"
     }
   },
   "scripts": {
@@ -55,7 +56,7 @@
     "@types/react-dom": "19.2.3",
     "@types/topojson-client": "3.1.5",
     "@types/topojson-specification": "1.0.5",
-    "@vitejs/plugin-react-swc": "4.3.1",
+    "@vitejs/plugin-react": "6.0.2",
     "react": "19.2.6",
     "react-dom": "19.2.6",
     "typescript": "6.0.3",
