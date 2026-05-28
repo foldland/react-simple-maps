@@ -1,7 +1,7 @@
 'use client'
 
 import { useMemo } from 'react'
-import type { Geography, RSMGeography } from '../types.ts'
+import type { RSMGeography } from '../types.ts'
 import { getFeatures, getMesh, prepareFeatures, prepareMesh } from '../utils.ts'
 import { useMapContext } from './MapProvider.tsx'
 
@@ -11,14 +11,8 @@ interface Geographies {
   borders: GeoJSON.MultiLineString | undefined
 }
 
-interface GeographiesProps {
-  geography: Geography
-}
-
-export default function useGeographies({
-  geography,
-}: GeographiesProps): Geographies {
-  const { path } = useMapContext()
+export default function useGeographies(): Geographies {
+  const { path, geography } = useMapContext()
 
   const { geographies, outline, borders } = useMemo(() => {
     const geographies = getFeatures(geography)

@@ -1,3 +1,5 @@
+'use client'
+
 import { geoGraticule } from 'd3-geo'
 import { memo } from 'react'
 import type { Point } from '../types.ts'

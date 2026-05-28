@@ -1,3 +1,5 @@
+'use client'
+
 import type { Point } from '../types.ts'
 import { createConnectorPath } from '../utils.ts'
 import { useMapContext } from './MapProvider.tsx'
