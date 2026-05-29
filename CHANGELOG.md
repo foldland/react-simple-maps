@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [5.0.1](https://gitlab.fold.land/tools/react-simple-maps/compare/v5.0.0..v5.0.1) - 2026-05-29
+
+### 🐛 Bug Fixes & Optimizations
+
+- AnnotationProps - ([9357d2a](https://gitlab.fold.land/tools/react-simple-maps/commit/9357d2a8226052b295c4856d57aa5e13e18ee16b)) - @nikolas.rimikis
+
+### 🔧 Chores
+
+- clarify license - ([d73de25](https://gitlab.fold.land/tools/react-simple-maps/commit/d73de25008b08757baee7e3b6d5c1df63d583c71)) - @nikolas.rimikis
+
+
+
+
+#### Statistics
+- 2 commit(s) contributed to the release.
+- 0 day(s) passed between the first and last commit.
+- 2 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 1 day(s) passed between releases.
+---
 ## [5.0.0](https://gitlab.fold.land/tools/react-simple-maps/compare/v4.0.6..v5.0.0) - 2026-05-28
 
 ### ⚠️ Breaking Changes
