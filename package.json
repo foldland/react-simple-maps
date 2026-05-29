@@ -1,6 +1,6 @@
 {
   "name": "@foldland/react-simple-maps",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "An svg map chart component built with and for React",
   "license": "MIT",
   "type": "module",
