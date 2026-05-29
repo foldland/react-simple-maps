@@ -1,7 +1,6 @@
-<img src="https://img.shields.io/bundlephobia/minzip/react-simple-maps?color=%2328cb95&label=gzip" />
-
 # react-simple-maps
 
+Up to date fork of `react-simple-maps`
 Create beautiful SVG maps in react with d3-geo and topojson using a declarative api.
 
 Read the [docs](https://www.react-simple-maps.io/docs/getting-started/), or check out the [examples](https://www.react-simple-maps.io/examples/).
@@ -14,16 +13,10 @@ Since `react-simple-maps` leaves DOM work to react, it can also easily be used w
 
 ### Install
 
-To install `react-simple-maps`
+To install `@foldland/react-simple-maps`
 
 ```bash
-$ npm install react-simple-maps
-```
-
-...or if you use yarn:
-
-```bash
-$ yarn add react-simple-maps
+$ npm install @foldland/react-simple-maps
 ```
 
 ### Usage
@@ -39,16 +32,20 @@ import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 const geoUrl =
   "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json";
 
+const Geo = () => {
+  const { geographies } = useGeographies()
+
+  return geographies.map((geo) => (
+    <Geography key={geo.rsmKey} geography={geo} />
+  ))
+}
+
 const App = () => {
   return (
     <div>
-      <ComposableMap>
-        <Geographies geography={geoUrl}>
-          {({ geographies }) =>
-            geographies.map((geo) => (
-              <Geography key={geo.rsmKey} geography={geo} />
-            ))
-          }
+      <ComposableMap geography={geoUrl}>
+        <Geographies >
+          <Geo />
         </Geographies>
       </ComposableMap>
     </div>
@@ -78,4 +75,9 @@ In order for this to work properly, you will however need to provide these valid
 
 ### License
 
-MIT licensed. Copyright (c) Richard Zimerman 2017. See [LICENSE.md](https://github.com/zcreativelabs/react-simple-maps/blob/master/LICENSE) for more details.
+MIT licensed.
+Copyright (c) 2017 Richard Zimerman
+Copyright (c) 2025 debacode gUG
+Copyright (c) 2026 foldland Software GmbH
+
+See [LICENSE](./LICENCE) for more details.
