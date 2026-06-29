@@ -44,7 +44,7 @@
     "topojson-client": "^3.1.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.0",
+    "@biomejs/biome": "2.5.1",
     "@foldland/biome-configs": "1.1.6",
     "@types/d3-color": "3.1.3",
     "@types/d3-geo": "3.1.0",
