@@ -52,8 +52,8 @@ importers:
         specifier: 7946.0.16
         version: 7946.0.16
       '@types/node':
-        specifier: 24.13.2
-        version: 24.13.2
+        specifier: 24.13.3
+        version: 24.13.3
       '@types/react':
         specifier: 19.2.17
         version: 19.2.17
@@ -68,7 +68,7 @@ importers:
         version: 1.0.5
       '@vitejs/plugin-react':
         specifier: 6.0.3
-        version: 6.0.3(vite@8.1.5(@types/node@24.13.2))
+        version: 6.0.3(vite@8.1.5(@types/node@24.13.3))
       node:
         specifier: runtime:^24.0.0
         version: runtime:24.18.0
@@ -83,10 +83,10 @@ importers:
         version: 6.0.3
       vite:
         specifier: 8.1.5
-        version: 8.1.5(@types/node@24.13.2)
+        version: 8.1.5(@types/node@24.13.3)
       vite-plugin-dts:
         specifier: 5.0.3
-        version: 5.0.3(rolldown@1.1.5)(typescript@6.0.3)(vite@8.1.5(@types/node@24.13.2))
+        version: 5.0.3(rolldown@1.1.5)(typescript@6.0.3)(vite@8.1.5(@types/node@24.13.3))
 
 packages:
 
@@ -317,8 +317,8 @@ packages:
   '@types/geojson@7946.0.16':
     resolution: {integrity: sha512-6C8nqWur3j98U6+lXDfTUWIfgvZU+EumvpHKcYjujKH7woYyLj2sUmff0tRhrqM7BohUw7Pz3ZB1jj2gW9Fvmg==}
 
-  '@types/node@24.13.2':
-    resolution: {integrity: sha512-fRa09kZTgu8o71KFcDjUFuc7F+dEbZYZmkI0mg5YBTRs0yMKjYHsq/c0urDKeDb+D5qVgXOdFcuu+DZPKOITwA==}
+  '@types/node@24.13.3':
+    resolution: {integrity: sha512-Dh8vAsV36ig5wa9OX4pXvMc9D3Veibfw2wix0CUwYODLD8nkj9UsLjASr49nPg+2eKzxhBV+v7L8pXvT4e639Q==}
 
   '@types/react-dom@19.2.3':
     resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
@@ -978,7 +978,7 @@ snapshots:
 
   '@types/geojson@7946.0.16': {}
 
-  '@types/node@24.13.2':
+  '@types/node@24.13.3':
     dependencies:
       undici-types: 7.18.2
 
@@ -999,10 +999,10 @@ snapshots:
     dependencies:
       '@types/geojson': 7946.0.16
 
-  '@vitejs/plugin-react@6.0.3(vite@8.1.5(@types/node@24.13.2))':
+  '@vitejs/plugin-react@6.0.3(vite@8.1.5(@types/node@24.13.3))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.1.5(@types/node@24.13.2)
+      vite: 8.1.5(@types/node@24.13.3)
 
   '@volar/language-core@2.4.28':
     dependencies:
@@ -1243,7 +1243,7 @@ snapshots:
 
   undici-types@7.18.2: {}
 
-  unplugin-dts@1.0.3(rolldown@1.1.5)(typescript@6.0.3)(vite@8.1.5(@types/node@24.13.2)):
+  unplugin-dts@1.0.3(rolldown@1.1.5)(typescript@6.0.3)(vite@8.1.5(@types/node@24.13.3)):
     dependencies:
       '@rollup/pluginutils': 5.4.0
       '@volar/typescript': 2.4.28
@@ -1256,7 +1256,7 @@ snapshots:
       unplugin: 2.3.11
     optionalDependencies:
       rolldown: 1.1.5
-      vite: 8.1.5(@types/node@24.13.2)
+      vite: 8.1.5(@types/node@24.13.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -1267,11 +1267,11 @@ snapshots:
       picomatch: 4.0.5
       webpack-virtual-modules: 0.6.2
 
-  vite-plugin-dts@5.0.3(rolldown@1.1.5)(typescript@6.0.3)(vite@8.1.5(@types/node@24.13.2)):
+  vite-plugin-dts@5.0.3(rolldown@1.1.5)(typescript@6.0.3)(vite@8.1.5(@types/node@24.13.3)):
     dependencies:
-      unplugin-dts: 1.0.3(rolldown@1.1.5)(typescript@6.0.3)(vite@8.1.5(@types/node@24.13.2))
+      unplugin-dts: 1.0.3(rolldown@1.1.5)(typescript@6.0.3)(vite@8.1.5(@types/node@24.13.3))
     optionalDependencies:
-      vite: 8.1.5(@types/node@24.13.2)
+      vite: 8.1.5(@types/node@24.13.3)
     transitivePeerDependencies:
       - '@rspack/core'
       - '@vue/language-core'
@@ -1281,7 +1281,7 @@ snapshots:
       - typescript
       - webpack
 
-  vite@8.1.5(@types/node@24.13.2):
+  vite@8.1.5(@types/node@24.13.3):
     dependencies:
       lightningcss: 1.32.0
       picomatch: 4.0.5
@@ -1289,7 +1289,7 @@ snapshots:
       rolldown: 1.1.5
       tinyglobby: 0.2.17
     optionalDependencies:
-      '@types/node': 24.13.2
+      '@types/node': 24.13.3
       fsevents: 2.3.3
 
   vscode-uri@3.1.0: {}
