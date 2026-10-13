@@ -7,27 +7,11 @@ import useZoomPan from './useZoomPan.ts'
 import { ZoomPanProvider } from './ZoomPanProvider.tsx'
 
 interface ZoomableGroupProps extends React.SVGProps<SVGGElement> {
-  children?: React.ReactNode
   /**
    * @default [0, 0]
    */
   center?: Point | undefined
-  /**
-   * @default 1
-   */
-  zoom?: number | undefined
-  /**
-   * @default 1
-   */
-  minZoom?: number | undefined
-  /**
-   * @default 5
-   */
-  maxZoom?: number | undefined
-  /**
-   * @default 0.025
-   */
-  zoomSensitivity?: number | undefined
+  children?: React.ReactNode
   /**
    * @default false
    */
@@ -36,12 +20,15 @@ interface ZoomableGroupProps extends React.SVGProps<SVGGElement> {
    * @default false
    */
   disableZooming?: boolean | undefined
-  onMoveStart?:
-    | ((
-        position: { coordinates: [number, number] | null; zoom: number },
-        event: D3ZoomEvent<SVGElement, any>
-      ) => void)
-    | undefined
+  filterZoomEvent?: ((element: SVGElement) => boolean) | undefined
+  /**
+   * @default 5
+   */
+  maxZoom?: number | undefined
+  /**
+   * @default 1
+   */
+  minZoom?: number | undefined
   onMove?:
     | ((
         position: { x: number; y: number; zoom: number; dragging: WheelEvent },
@@ -54,8 +41,21 @@ interface ZoomableGroupProps extends React.SVGProps<SVGGElement> {
         event: D3ZoomEvent<SVGElement, any>
       ) => void)
     | undefined
-  filterZoomEvent?: ((element: SVGElement) => boolean) | undefined
+  onMoveStart?:
+    | ((
+        position: { coordinates: [number, number] | null; zoom: number },
+        event: D3ZoomEvent<SVGElement, any>
+      ) => void)
+    | undefined
   translateExtent?: [[number, number], [number, number]] | undefined
+  /**
+   * @default 1
+   */
+  zoom?: number | undefined
+  /**
+   * @default 0.025
+   */
+  zoomSensitivity?: number | undefined
 }
 
 const ZoomableGroup = ({

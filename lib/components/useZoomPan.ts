@@ -23,20 +23,7 @@ interface ZoomPanProps {
    * @default [0, 0]
    */
   center?: Point | undefined
-  /**
-   * @default 1
-   */
-  zoom?: number | undefined
-  /**
-   * @default [1, 8]
-   */
-  scaleExtent?: Point | undefined
-  onMoveStart?:
-    | ((
-        position: { coordinates: [number, number] | null; zoom: number },
-        event: D3ZoomEvent<SVGElement, any>
-      ) => void)
-    | undefined
+  filterZoomEvent?: ((element: SVGElement) => boolean) | undefined
   onMove?:
     | ((
         position: { x: number; y: number; zoom: number; dragging: WheelEvent },
@@ -49,8 +36,21 @@ interface ZoomPanProps {
         event: D3ZoomEvent<SVGElement, any>
       ) => void)
     | undefined
-  filterZoomEvent?: ((element: SVGElement) => boolean) | undefined
+  onMoveStart?:
+    | ((
+        position: { coordinates: [number, number] | null; zoom: number },
+        event: D3ZoomEvent<SVGElement, any>
+      ) => void)
+    | undefined
+  /**
+   * @default [1, 8]
+   */
+  scaleExtent?: Point | undefined
   translateExtent?: [[number, number], [number, number]] | undefined
+  /**
+   * @default 1
+   */
+  zoom?: number | undefined
 }
 
 export default function useZoomPan({

@@ -5,8 +5,8 @@ import type { Objects, Topology } from 'topojson-specification'
 export type Point = [number, number]
 
 export interface Mesh {
-  outline: GeoJSON.MultiLineString
   borders: GeoJSON.MultiLineString
+  outline: GeoJSON.MultiLineString
 }
 
 export type ProjectionFunction = (
@@ -15,9 +15,9 @@ export type ProjectionFunction = (
 ) => GeoProjection
 
 export interface Position {
+  k: number
   x: number
   y: number
-  k: number
 }
 
 export type Geography = Topology<Objects<GeometryObject>> | GeoJSON

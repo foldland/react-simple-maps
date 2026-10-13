@@ -3,10 +3,8 @@ import { MapProvider } from './MapProvider.tsx'
 
 interface ComposableMapProps extends React.SVGProps<SVGSVGElement> {
   children?: React.ReactNode
-  /**
-   * @default 800
-   */
-  width?: number | undefined
+
+  geography: Geography
   /**
    * @default 600
    */
@@ -15,8 +13,10 @@ interface ComposableMapProps extends React.SVGProps<SVGSVGElement> {
    * @default "geoEqualEarth"
    */
   projection: ProjectionFunction
-
-  geography: Geography
+  /**
+   * @default 800
+   */
+  width?: number | undefined
 }
 
 const ComposableMap = ({

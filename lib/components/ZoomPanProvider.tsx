@@ -4,10 +4,10 @@ import type React from 'react'
 import { createContext, useContext } from 'react'
 
 interface ZoomPanContextType {
-  x: number
-  y: number
   k: number
   transformString: string
+  x: number
+  y: number
 }
 
 const ZoomPanContext = createContext<ZoomPanContextType | undefined>(undefined)

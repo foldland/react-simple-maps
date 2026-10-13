@@ -7,6 +7,10 @@ import { useMapContext } from './MapProvider.tsx'
 
 interface GraticuleProps extends React.SVGProps<SVGPathElement> {
   /**
+   * @default "transparent"
+   */
+  fill?: string | undefined
+  /**
    * @default [10, 10]
    */
   step?: Point | undefined
@@ -14,10 +18,6 @@ interface GraticuleProps extends React.SVGProps<SVGPathElement> {
    * @default "currentcolor"
    */
   stroke?: string | undefined
-  /**
-   * @default "transparent"
-   */
-  fill?: string | undefined
 }
 
 const Graticule = ({
