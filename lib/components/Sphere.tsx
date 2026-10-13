@@ -5,13 +5,13 @@ import { useMapContext } from './MapProvider.tsx'
 
 interface SphereProps extends React.SVGProps<SVGPathElement> {
   /**
-   * @default "rsm-sphere"
-   */
-  id: string
-  /**
    * @default "transparent"
    */
   fill: string
+  /**
+   * @default "rsm-sphere"
+   */
+  id: string
   /**
    * @default "currentcolor"
    */

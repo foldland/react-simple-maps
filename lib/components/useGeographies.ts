@@ -6,9 +6,9 @@ import { getFeatures, getMesh, prepareFeatures, prepareMesh } from '../utils.ts'
 import { useMapContext } from './MapProvider.tsx'
 
 interface Geographies {
+  borders: GeoJSON.MultiLineString | undefined
   geographies: Array<RSMGeography>
   outline: GeoJSON.MultiLineString | undefined
-  borders: GeoJSON.MultiLineString | undefined
 }
 
 export default function useGeographies(): Geographies {

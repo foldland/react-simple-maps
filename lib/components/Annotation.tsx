@@ -6,8 +6,11 @@ import { useMapContext } from './MapProvider.tsx'
 
 interface AnnotationProps extends React.SVGProps<SVGGElement> {
   children?: React.ReactNode
-  subject?: Point | undefined
   connectorProps?: React.SVGProps<SVGPathElement> | undefined
+  /**
+   * @default 0
+   */
+  curve?: number | undefined
   /**
    * @default 30
    */
@@ -16,10 +19,7 @@ interface AnnotationProps extends React.SVGProps<SVGGElement> {
    * @default 30
    */
   dy?: number | undefined
-  /**
-   * @default 0
-   */
-  curve?: number | undefined
+  subject?: Point | undefined
 }
 
 const Annotation = ({

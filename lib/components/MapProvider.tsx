@@ -6,21 +6,21 @@ import { createContext, useContext, useMemo } from 'react'
 import type { Geography, ProjectionFunction } from '../types.ts'
 
 interface MapContextType {
-  width: number
+  geography: Geography
   height: number
   path: GeoPath
   projection: GeoProjection
-  geography: Geography
+  width: number
 }
 
 const MapContext = createContext<MapContextType | undefined>(undefined)
 
 interface MapProviderProps {
-  width: number
+  children: React.ReactNode
+  geography: Geography
   height: number
   projection: ProjectionFunction
-  geography: Geography
-  children: React.ReactNode
+  width: number
 }
 
 const MapProvider = ({

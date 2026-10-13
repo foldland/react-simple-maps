@@ -10,17 +10,17 @@ interface LineProps
     Exclude<keyof React.SVGProps<SVGPathElement>, 'from' | 'to'>
   > {
   /**
-   * @default [0, 0]
-   */
-  from?: Point | undefined
-  /**
-   * @default [0, 0]
-   */
-  to?: Point | undefined
-  /**
    * @default [[0, 0], [0, 0]]
    */
   coordinates?: Array<Point> | undefined
+  /**
+   * @default "transparent"
+   */
+  fill?: string | undefined
+  /**
+   * @default [0, 0]
+   */
+  from?: Point | undefined
   /**
    * @default "currentcolor"
    */
@@ -30,9 +30,9 @@ interface LineProps
    */
   strokeWidth?: number | string | undefined
   /**
-   * @default "transparent"
+   * @default [0, 0]
    */
-  fill?: string | undefined
+  to?: Point | undefined
 }
 
 const Line = ({
