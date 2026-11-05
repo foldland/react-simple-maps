@@ -3,6 +3,81 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [5.0.2](https://gitlab.fold.land/tools/react-simple-maps/compare/v5.0.1..v5.0.2) - 2026-11-05
+
+### 📚 Documentation
+
+- add contributing guidelines - ([a74f211](https://gitlab.fold.land/tools/react-simple-maps/commit/a74f2112bb126b3e6219de2de8dde3e80d9471da)) - @nikolas.rimikis
+
+### 🔧 Chores
+
+- **(deps)** update dependency pnpm to v11.4.0 - ([58a8c02](https://gitlab.fold.land/tools/react-simple-maps/commit/58a8c02971fe62c99ccb642c4d82e94c780c8b44)) - @renovate
+- **(deps)** update dependency @biomejs/biome to v2.4.16 - ([754de56](https://gitlab.fold.land/tools/react-simple-maps/commit/754de56d67983661c70996108d86312039279d9c)) - @renovate
+- **(deps)** lock file maintenance - ([7c1c8cf](https://gitlab.fold.land/tools/react-simple-maps/commit/7c1c8cff570e34fa909687a8cb034269118133a2)) - @renovate
+- **(deps)** update dependency pnpm to v11.6.0 - ([d79b987](https://gitlab.fold.land/tools/react-simple-maps/commit/d79b9872af8e259a96f6ee4798fb50f17337cd45)) - @renovate
+- **(deps)** update dependency @types/node to v24.13.2 - ([af3ef0a](https://gitlab.fold.land/tools/react-simple-maps/commit/af3ef0af977baea30ea005a6412ac975f5a3eaba)) - @renovate
+- **(deps)** update react monorepo - ([eb8ea74](https://gitlab.fold.land/tools/react-simple-maps/commit/eb8ea7490362ee2d9453752a9fb846b02a3c3e8c)) - @renovate
+- **(deps)** update dependency vite to v8.0.16 - ([46ed698](https://gitlab.fold.land/tools/react-simple-maps/commit/46ed6980fd02f33d9b5bfbce003c5f52425932de)) - @renovate
+- **(deps)** update dependency pnpm to v11.8.0 - ([00141af](https://gitlab.fold.land/tools/react-simple-maps/commit/00141afb21b25113feaa70a5c5be9176f50640f8)) - @renovate
+- **(deps)** update node.js to 0cbad76 - ([2be1386](https://gitlab.fold.land/tools/react-simple-maps/commit/2be1386d595dd44f796a84443e93229b4cb61460)) - @renovate
+- **(deps)** update biome packages - ([873153a](https://gitlab.fold.land/tools/react-simple-maps/commit/873153a650b43b7e9413865e428de7971e26ca1a)) - @renovate
+- **(deps)** update dependency vite-plugin-dts to v5.0.2 - ([05f881d](https://gitlab.fold.land/tools/react-simple-maps/commit/05f881d87e0c42383c11360d1b99d89a7410b210)) - @renovate
+- **(deps)** lock file maintenance - ([c9ab0ed](https://gitlab.fold.land/tools/react-simple-maps/commit/c9ab0ede1ea49de7ec852b1c418bb6eeeb0c26ed)) - @renovate
+- **(deps)** update dependency vite to v8.1.0 - ([bf184d7](https://gitlab.fold.land/tools/react-simple-maps/commit/bf184d7c32e4e12dff5925f546b8e952ed1b1225)) - @renovate
+- **(deps)** update biome packages to v2.5.1 - ([f345acb](https://gitlab.fold.land/tools/react-simple-maps/commit/f345acb2ac41f816491624972342e43d6cb6117e)) - @renovate
+- **(deps)** update dependency pnpm to v11.9.0 - ([a843ac3](https://gitlab.fold.land/tools/react-simple-maps/commit/a843ac30925419a6df7f8fe93b2be10570f2ed26)) - @renovate
+- **(deps)** update dependency @vitejs/plugin-react to v6.0.3 - ([c108c1f](https://gitlab.fold.land/tools/react-simple-maps/commit/c108c1f34de39417108a4e0f9135cba5bc8d7f40)) - @renovate
+- **(deps)** update dependency vite-plugin-dts to v5.0.3 - ([8e7849f](https://gitlab.fold.land/tools/react-simple-maps/commit/8e7849ff69b8934b07d8176ac894957c5115b8fd)) - @renovate
+- **(deps)** lock file maintenance - ([497968e](https://gitlab.fold.land/tools/react-simple-maps/commit/497968ebd2be863f4108711f2179e29a242213ab)) - @renovate
+- **(deps)** update dependency vite to v8.1.3 - ([4e60844](https://gitlab.fold.land/tools/react-simple-maps/commit/4e60844a7e28ac8eee57da012546ad580ab600c2)) - @renovate
+- **(deps)** update node.js to 627da5f - ([d5b4dee](https://gitlab.fold.land/tools/react-simple-maps/commit/d5b4deef97b33c8736312a9b4b647de5192a1d72)) - @renovate
+- **(deps)** update biome packages - ([862bd33](https://gitlab.fold.land/tools/react-simple-maps/commit/862bd33ca52d8742939766fc5937d46b6e35310e)) - @renovate
+- **(deps)** lock file maintenance - ([e936cfa](https://gitlab.fold.land/tools/react-simple-maps/commit/e936cfa8f25b87b2d037eebd6e63268c38edaf39)) - @renovate
+- **(deps)** update dependency pnpm to v11.13.1 - ([6faaad5](https://gitlab.fold.land/tools/react-simple-maps/commit/6faaad5cc8ed1271cda14700ecaf4b2cb437ba24)) - @renovate
+- **(deps)** update dependency vite to v8.1.5 - ([ac65c11](https://gitlab.fold.land/tools/react-simple-maps/commit/ac65c113e55c066b84b9abb888411dd585387e1e)) - @renovate
+- **(deps)** update biome packages - ([b44f5da](https://gitlab.fold.land/tools/react-simple-maps/commit/b44f5dae272f7123d4098023d089ff0b3e99ce84)) - @renovate
+- **(deps)** update dependency @types/node to v24.13.3 - ([174c281](https://gitlab.fold.land/tools/react-simple-maps/commit/174c281ded72e475133e0c9794dd60de28df14ac)) - @renovate
+- **(deps)** lock file maintenance - ([ed0f01c](https://gitlab.fold.land/tools/react-simple-maps/commit/ed0f01c69afdd49d615018888b29a4f739fa182e)) - @renovate
+- **(deps)** update dependency pnpm to v11.17.0 - ([f667c8d](https://gitlab.fold.land/tools/react-simple-maps/commit/f667c8d5b282eac7fed018223115beaafb228fbd)) - @renovate
+- **(deps)** update dependency react-dom to v19.2.8 - ([b09cb00](https://gitlab.fold.land/tools/react-simple-maps/commit/b09cb00ffb85794d5d6a0900b28f9a1d5d0f4fc5)) - @renovate
+- **(deps)** update dependency @vitejs/plugin-react to v6.0.4 - ([1874e54](https://gitlab.fold.land/tools/react-simple-maps/commit/1874e549dc089aed0969f58637181dbbbd26ab65)) - @renovate
+- **(deps)** update biome packages - ([d8efa9f](https://gitlab.fold.land/tools/react-simple-maps/commit/d8efa9f465dd06b2cd55139070b8f76efb93a18f)) - @renovate
+- **(deps)** update dependency react to v19.2.8 - ([88ab929](https://gitlab.fold.land/tools/react-simple-maps/commit/88ab92956fb8e69075dea2fcb2bcc9af35b1f908)) - @renovate
+- **(deps)** lock file maintenance - ([362310c](https://gitlab.fold.land/tools/react-simple-maps/commit/362310c95a2fb9d5645a0db2c8cbebb25d1839a9)) - @renovate
+- **(deps)** update all non-major dependencies - ([b6680ca](https://gitlab.fold.land/tools/react-simple-maps/commit/b6680caecec7354379eaae02bdbd234a85a00bf0)) - @renovate
+- **(deps)** update all non-major dependencies - ([e3fa0bd](https://gitlab.fold.land/tools/react-simple-maps/commit/e3fa0bdad090bd903246e230eaffcefd9dd82671)) - @Renovate Bot
+- **(deps)** lock file maintenance - ([dcfa8a7](https://gitlab.fold.land/tools/react-simple-maps/commit/dcfa8a7d3f3431cb44434501da70183c0f68836e)) - @renovate
+- **(deps)** lock file maintenance - ([ed18c9b](https://gitlab.fold.land/tools/react-simple-maps/commit/ed18c9bd9b049b8608554e19f1afea1cd0f1b693)) - @renovate
+- **(deps)** update all non-major dependencies - ([36b1927](https://gitlab.fold.land/tools/react-simple-maps/commit/36b1927a242be22146022417a4f0ba17af623795)) - @renovate
+- **(deps)** lock file maintenance - ([f672d73](https://gitlab.fold.land/tools/react-simple-maps/commit/f672d73ace862ffff36f91d5ca6169eb51cc47dc)) - @renovate
+- **(deps)** update all non-major dependencies - ([673d297](https://gitlab.fold.land/tools/react-simple-maps/commit/673d297fcab7fe805309307ffa0b6b907619a226)) - @renovate
+- **(deps)** lock file maintenance - ([73e6b7c](https://gitlab.fold.land/tools/react-simple-maps/commit/73e6b7c934b76c378af6c25afc35687fb6ea9578)) - @renovate
+- **(deps)** update all non-major dependencies - ([4ac507a](https://gitlab.fold.land/tools/react-simple-maps/commit/4ac507a3ea502cd22c466f8d8a6edb760d273d5a)) - @renovate
+- **(deps)** lock file maintenance - ([7282d6f](https://gitlab.fold.land/tools/react-simple-maps/commit/7282d6f34bdd314f9abd84bb759ffb1134b4da0d)) - @renovate
+- **(deps)** update all non-major dependencies - ([377d65d](https://gitlab.fold.land/tools/react-simple-maps/commit/377d65ddf773cf23331b482bac8fc6c1dcdff7b7)) - @Renovate Bot
+- **(deps)** update dependency pnpm to v12 - ([71b8102](https://gitlab.fold.land/tools/react-simple-maps/commit/71b8102bbe1118f6271705ec7b7437d401bdb6aa)) - @Renovate Bot
+- **(deps)** update all non-major dependencies - ([4466131](https://gitlab.fold.land/tools/react-simple-maps/commit/44661315cc5af8c55603b42a8455a6e41ad79e96)) - @Renovate Bot
+- **(deps)** lock file maintenance - ([7db2385](https://gitlab.fold.land/tools/react-simple-maps/commit/7db238560f6bd42fd4d741aeb375da58853af274)) - @renovate
+- **(deps)** update all non-major dependencies - ([aa3b886](https://gitlab.fold.land/tools/react-simple-maps/commit/aa3b8861e93752bdcec4bd5f4b19ee80b5bab5c0)) - @renovate
+- **(deps)** update all non-major dependencies - ([c61e9b1](https://gitlab.fold.land/tools/react-simple-maps/commit/c61e9b175224c3c7c74b53606d220f9d56b0b2eb)) - @renovate
+- **(deps)** lock file maintenance - ([763eb2a](https://gitlab.fold.land/tools/react-simple-maps/commit/763eb2ad27cd63f81efcfbff36b534488039e4d8)) - @renovate
+- **(deps)** update all non-major dependencies - ([cd8ecb9](https://gitlab.fold.land/tools/react-simple-maps/commit/cd8ecb932efe1fd11a0d81b343e34105df6b65cc)) - @renovate
+- **(deps)** lock file maintenance - ([bd16ecd](https://gitlab.fold.land/tools/react-simple-maps/commit/bd16ecdc276a32028cbf23a13a899baf908d98ce)) - @renovate
+- **(deps)** update all non-major dependencies - ([36e81aa](https://gitlab.fold.land/tools/react-simple-maps/commit/36e81aa6c071a31ab92bdb9ac2f47b98f13261ad)) - @renovate
+- **(deps)** update node.js to v26 - ([937d222](https://gitlab.fold.land/tools/react-simple-maps/commit/937d2223f9103ca3a9077689866ef9fa90c41d11)) - @renovate
+- **(deps)** lock file maintenance - ([b751773](https://gitlab.fold.land/tools/react-simple-maps/commit/b751773afde9ff965c4df8d18f6d75a46eb89a3f)) - @renovate
+- **(deps)** update node.js to v26 - ([21e1ffc](https://gitlab.fold.land/tools/react-simple-maps/commit/21e1ffc25ca881a7dc7771bd794187649b99ed15)) - @renovate
+
+
+
+
+#### Statistics
+- 57 commit(s) contributed to the release.
+- 157 day(s) passed between the first and last commit.
+- 57 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 160 day(s) passed between releases.
+---
 ## [5.0.1](https://gitlab.fold.land/tools/react-simple-maps/compare/v5.0.0..v5.0.1) - 2026-05-29
 
 ### 🐛 Bug Fixes & Optimizations
