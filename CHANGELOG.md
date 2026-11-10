@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [5.0.3](https://gitlab.fold.land/tools/react-simple-maps/compare/v5.0.2..v5.0.3) - 2026-11-10
+
+### 🔧 Chores
+
+- **(deps)** update all non-major dependencies - ([4866bad](https://gitlab.fold.land/tools/react-simple-maps/commit/4866bad65761cf1691fc02df3c55dbd4b871fecd)) - @renovate
+- **(deps)** lock file maintenance - ([1e0e7e9](https://gitlab.fold.land/tools/react-simple-maps/commit/1e0e7e99643330d0320480607503f34626a87c99)) - @renovate
+- **(deps)** lock file maintenance - ([3cd6dfe](https://gitlab.fold.land/tools/react-simple-maps/commit/3cd6dfe417b25891486837ec39af7a9c8665ecb6)) - @renovate
+
+
+
+
+#### Statistics
+- 3 commit(s) contributed to the release.
+- 1 day(s) passed between the first and last commit.
+- 3 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 5 day(s) passed between releases.
+---
 ## [5.0.2](https://gitlab.fold.land/tools/react-simple-maps/compare/v5.0.1..v5.0.2) - 2026-11-05
 
 ### 📚 Documentation
