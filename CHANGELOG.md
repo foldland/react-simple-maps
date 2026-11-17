@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [5.0.5](https://gitlab.fold.land/tools/react-simple-maps/compare/v5.0.4..v5.0.5) - 2026-11-17
+
+### 🐛 Bug Fixes & Optimizations
+
+- typescript export - ([4fb0738](https://gitlab.fold.land/tools/react-simple-maps/commit/4fb073808a2b831f31c03d6036c56ef1856d7d5a)) - @nikolas.rimikis
+
+### ⚙️ Miscellaneous
+
+- update pnpm config - ([9f76065](https://gitlab.fold.land/tools/react-simple-maps/commit/9f760652c7ff7cb6050dd726b30e8b9c5c8d05d6)) - @nikolas.rimikis
+
+
+
+
+#### Statistics
+- 2 commit(s) contributed to the release.
+- 0 day(s) passed between the first and last commit.
+- 2 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 1 day(s) passed between releases.
+---
 ## [5.0.4](https://gitlab.fold.land/tools/react-simple-maps/compare/v5.0.3..v5.0.4) - 2026-11-16
 
 ### 🔧 Chores
