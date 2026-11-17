@@ -7,14 +7,14 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/lib/main.d.ts",
+      "types": "./dist/main.d.ts",
       "import": "./dist/main.esm.js",
       "require": "./dist/main.cjs.js"
     }
   },
   "main": "./dist/main.cjs.js",
   "module": "./dist/main.esm.js",
-  "types": "./dist/lib/main.d.ts",
+  "types": "./dist/main.d.ts",
   "files": [
     "dist"
   ],

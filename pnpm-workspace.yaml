@@ -20,6 +20,10 @@ engineStrict: true
 ignorePnpmfile: true
 
 # Security
+lockfile:
+  includeResolutionSettings: true
+audit:
+  level: high
 blockExoticSubdeps: true
 hoist: false
 hoistWorkspacePackages: false
