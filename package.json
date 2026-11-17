@@ -8,12 +8,12 @@
   "exports": {
     ".": {
       "types": "./dist/main.d.ts",
-      "import": "./dist/main.esm.js",
+      "import": "./dist/main.es.js",
       "require": "./dist/main.cjs.js"
     }
   },
   "main": "./dist/main.cjs.js",
-  "module": "./dist/main.esm.js",
+  "module": "./dist/main.es.js",
   "types": "./dist/main.d.ts",
   "files": [
     "dist"
